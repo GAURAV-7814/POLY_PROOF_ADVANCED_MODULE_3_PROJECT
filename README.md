@@ -90,7 +90,7 @@ component main = CustomCircuit();
 You will want to do the following steps to run the project :-
 
 1. First of all , install the metamask wallet on Browser.
-2. In Metamask , you have to Add sepolia test network . For adding this , go to chainlist website (https://chainlist.org/?testnets=true) then click on 'Use Metamask' button in the Pop-up and make sure the 'Include Testnets' checkbox is enabled . Then search for 11155111 chain ID in 'Search Networks'input field and then click on Add to Metamask button to add network to Metamask and then click on Approve button in the pop-up by Metacrafters. The Network is added to our metamask wallet .
+2. In Metamask , you have to Add sepolia test network . For adding this , go to chainlist website (https://chainlist.org/?testnets=true) then click on 'Use Metamask' button in the Pop-up and make sure the 'Include Testnets' checkbox is enabled . Then search for 11155111 chain ID in 'Search Networks' input field and then click on Add to Metamask button to add network to Metamask and then click on Approve button in the pop-up by Metacrafters. The Network is added to our metamask wallet .
 3. Now, we need testnet tokens in the network to run the project . For Obtaining Sepolia testnet token go to https://cloud.google.com/application/web3/faucet/ethereum/sepolia and get the testnet tokens in the network.
 4. Clone the Github repository(make sure each file here is available) in your Github.
 5. Copy the URL link of your Github Repository.
