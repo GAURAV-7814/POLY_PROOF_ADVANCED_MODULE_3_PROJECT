@@ -95,16 +95,16 @@ You will want to do the following steps to run the project :-
 4. Clone the Github repository(make sure each file here is available) in your Github.
 5. Copy the URL link of your Github Repository.
 6. Open Gitpod(https://gitpod.io/workspaces) , then click on New Workspace and paste link of repository then click on 'continue' button and run the workspace in VS-CODE desktop or browser.
-7. Inside the project directory, in the terminal type: `npm i` and wait for it to complete. This is not necessary step if you are using gitpod because in that it automatically install all the dependencies while opening it.
+7. Inside the project directory, in the terminal type: `npm i` and wait for it to complete. This is not necessary step if you are using gitpod because in that it automatically install all the dependencies while opening the gitpod.
 8. Put your private key in .env file. You will get your private key from your metamask wallet .
 9. Run `npx hardhat circom`. This will generate the **out** file with circuit intermediaries and generate the **MultiplierVerifier.sol** contract
 10. Run `npx hardhat run scripts/deploy.ts`. This script does 4 things  
-   - Deploys the MultiplierVerifier.sol contract
+   - Deploys the `MultiplierVerifier.sol` contract
    - Generates a proof from circuit intermediaries with `generateProof()`
    - Generates calldata with `generateCallData()`
    - Calls `verifyProof()` on the verifier contract with calldata
-11. 
-19. Project is successfully completed. 
+11. Copy 'Verifier deployed to' address from the terminal and search it on the sepolia testnet explorer(https://sepolia.etherscan.io/) then see the Transaction of Contract Creation means our script is working correctly.
+12. If we get Verifier result as true in terminal then Project is successfully completed. 
 
 With two commands you can compile a ZKP, generate a proof, deploy a verifier, and verify the proof 🎉
 
